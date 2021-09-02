@@ -1,8 +1,22 @@
-Querying
-In some cases, issueing an HTTP GET request to a BigQuery URL is not enough. More information is required from the client. IN such cases, the API requires that the client issue an HTTP POST and send along a JSON request in the body of the request.
+Ask; See; Don; Fog; Gas; Had; Jag; Keg; Leg; Nag; All; Sag; 
+tag; tog; tin; ton; tan; ten; tea; tie; toll tall till tell
+That Kill Fill Sell Till Hill Gill Doll Noel Tent Hide Tide
+I said I hated the doll and that I felt it had a tin leg;
+She talked of Noel and said she asked if he hated jogging
+Ask to see Don and see if he sells gates; tents and dolls
 
-For example, to run a BigQuery SQL query and obtain the results, issue an HTTP POST request to
 
-and send in a JSON of the following form:
+jed doesd on a lg; 
+jed dosedd on a log; he soon had no dog; he had gone inside;
+the lad and his dog had gone jogging in a field and he fell
+he had a fine nose; she had gone insane; she had a finfig
+she had a fine salad and half of a fish; she soon had onen;
+fog had soon hidden all signs of a filed; he fel on a log; 
+a lad had a fine dog; he held his lead; he jogged in a lane
+The fog had filled the field and I fell on sagging log;
+He let his dog loose in the field and he fisehd in a lake
+I said I helt fine and that I jogged in a field at night; 
+Ask to see Don and see if he hsells gates; tents and dolls
+She talked of Noel and said she asked if he hated jogging
+I said I hated the dol and that I felt it had a tin leg;
 
-Sometimes the query results are too large to be sent in a single HTTP response. Instead the results are provided us in chunks. Recall, however, that REST is a stateless protocol and the server does not maintain session context. Therefore, the results are actually stored in a temporary table that is maintained for 24 hours. The client can page through this temporary table of results using a page token that servers as a bookmark for each call to get query results.
